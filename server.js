@@ -5,7 +5,7 @@
  app.use(cors())
 
  app.get('/',(req,res) => {
-     res.send("The server is ready! ");
+     res.send("The server is ready for use! ");
  });
  app.get('/cars',(req,res) => {
     const collection = [
